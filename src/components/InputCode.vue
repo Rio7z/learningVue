@@ -1,7 +1,7 @@
 <template lang="pug">
     #InputCode
         .container
-            input#code
+            input#code(maxlength="8")
         .container
             button Submit
 

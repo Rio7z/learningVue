@@ -20,15 +20,21 @@ export default {
 </script>
 
 <style lang="stylus">
+@font-face
+  font-family oswald 
+  font-style normal
+  src url(https://fonts.googleapis.com/css?family=Oswald)
+
 *
   margin 0
   -webkit-tap-highlight-color: transparent;
 
 :focus
-    outline none !important
+  outline none !important
 
 #app 
   display flex
+  font-family oswald 
   flex-wrap wrap
 	-webkit-font-smoothing antialiased
 	-moz-osx-font-smoothing grayscale
